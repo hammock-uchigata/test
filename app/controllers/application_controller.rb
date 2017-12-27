@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "BBBBBBB!"
   end
+
+  def goodbye
+    render html: "CCCCCCC!"
+  end
 end
